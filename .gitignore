@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#  Sub directories created for Quartus project
+de1/adder/db
+de1/adder/incremental_db
