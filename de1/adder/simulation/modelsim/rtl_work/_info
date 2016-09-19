@@ -8,24 +8,45 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Lab User/Documents/GitHub/altera/de1/adder/simulation/modelsim
+vtb
+Z1 !s110 1474324731
+!i10b 1
+!s100 `WjAY>bckE1AQg3VX;UUV0
+IWo`Si<_0K=0Y9^ARzdRjU0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1474323714
+8C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v
+FC:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1474324731.418000
+!s107 C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lab User/Documents/GitHub/altera/de1/adder|C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Lab User/Documents/GitHub/altera/de1/adder}
 vuadder
-!s110 1474323859
+R1
 !i10b 1
 !s100 PB`im^9?j8[LzNIb<g[SH1
 I^Hmz=FQ5AjIQ>E22G6jYB0
-V`JN@9S9cnhjKRR_L]QIcM3
+R2
 R0
 w1474323507
 8C:/Users/Lab User/Documents/GitHub/altera/de1/adder/uadder.v
 FC:/Users/Lab User/Documents/GitHub/altera/de1/adder/uadder.v
 L0 1
-OV;L;10.3d;59
+R3
 r1
 !s85 0
 31
-!s108 1474323859.441000
+!s108 1474324731.181000
 !s107 C:/Users/Lab User/Documents/GitHub/altera/de1/adder/uadder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Lab User/Documents/GitHub/altera/de1/adder|C:/Users/Lab User/Documents/GitHub/altera/de1/adder/uadder.v|
 !i113 1
-o-vlog01compat -work work
-!s92 -vlog01compat -work work {+incdir+C:/Users/Lab User/Documents/GitHub/altera/de1/adder}
+R4
+R5

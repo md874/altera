@@ -14,12 +14,44 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Lab\ User/Documents/GitHub/altera/de1/adder {C:/Users/Lab User/Documents/GitHub/altera/de1/adder/uadder.v}
 # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 18:24:19 on Sep 19,2016
+# Start time: 18:38:51 on Sep 19,2016
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Lab User/Documents/GitHub/altera/de1/adder" C:/Users/Lab User/Documents/GitHub/altera/de1/adder/uadder.v 
 # -- Compiling module uadder
 # 
 # Top level modules:
 # 	uadder
-# End time: 18:24:19 on Sep 19,2016, Elapsed time: 0:00:00
+# End time: 18:38:51 on Sep 19,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+# vlog -vlog01compat -work work +incdir+C:/Users/Lab\ User/Documents/GitHub/altera/de1/adder {C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:38:51 on Sep 19,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Lab User/Documents/GitHub/altera/de1/adder" C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 18:38:51 on Sep 19,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -gui "+altera" -l msim_transcript -do "uadder_run_msim_rtl_verilog.do" 
+# Start time: 18:38:51 on Sep 19,2016
+# Loading work.tb
+# Loading work.uadder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v(25)
+#    Time: 20 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v line 25
+# Simulation Breakpoint: 1
+# Break in Module tb at C:/Users/Lab User/Documents/GitHub/altera/de1/adder/tb.v line 25
+# MACRO ./uadder_run_msim_rtl_verilog.do PAUSED at line 17
+# End time: 18:40:10 on Sep 19,2016, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
